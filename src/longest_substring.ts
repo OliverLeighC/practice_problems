@@ -1,25 +1,3 @@
-/* 
-THOUGHT PROCESS
-
-- we need to keep track of the longest length so far
-
-- GREEDY APPROACH 
-
-loop through the string and set the first character to an array, 
-for each subsequent character if it doesn't exist in the array push it and move on
-if it does exist in the array set the max length and start over from the second character ?
-
-we could actually use that same array but split from after the current character's duplicate 
-so if the substring is [cab] and the current character is c, we could add it to a new array with abc and keep going
-
-we would only update maxLength when the current character can't be added and if it's bigger than the stored max length
-
--- notes on the greedy approach --
-
-we could hit our max length early but we will check the whole string anyway 
-
-*/
-
 /**
  * Find the length of the longest substring of unique characters
  * @param theString a string of characters
@@ -57,3 +35,25 @@ export function longestUniqueSubstringLength(theString: string) {
 
 	return maxLength;
 }
+
+/* 
+THOUGHT PROCESS
+
+- we need to keep track of the longest length so far
+
+- GREEDY APPROACH 
+
+loop through the string and set the first character to an array, 
+for each subsequent character if it doesn't exist in the array push it and move on
+if it does exist in the array set the max length and start over from the second character ?
+
+we could actually use that same array but split from after the current character's duplicate 
+so if the substring is [cab] and the current character is c, we could add it to a new array with abc and keep going
+
+we would only update maxLength when the current character can't be added and if it's bigger than the stored max length
+
+-- notes on the greedy approach --
+
+we could hit our max length early but we will check the whole string anyway 
+
+*/

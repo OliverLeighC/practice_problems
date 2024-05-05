@@ -7,19 +7,6 @@
  * @returns max profit (could be negative)
  * @notes sourced from Interview Cake
  */
-
-/* THOUGHT PROCESS NOTES 
-
-- if prices go down we want the smallest difference
-- if prices go up we want the biggest difference 
-
-- the buy can't be the last number and the sell can't be the first number
-so sell will be index 0...length-2 and buy will be index 1...length-1
-
-- we need to keep track of the smallest price and the biggest profit
-
-*/
-
 export function maxProfit(prices) {
 	// set initial buy to the first price
 	let minPrice = prices[0];
@@ -43,3 +30,15 @@ export function maxProfit(prices) {
 
 	return maxProfit;
 }
+
+/* THOUGHT PROCESS NOTES 
+
+- if prices go down we want the smallest difference
+- if prices go up we want the biggest difference 
+
+- the buy can't be the last number and the sell can't be the first number
+so sell will be index 0...length-2 and buy will be index 1...length-1
+
+- we need to keep track of the smallest price and the biggest profit
+
+*/
