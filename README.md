@@ -9,3 +9,9 @@ Written in typescript and tested in jest. Nothing too exciting, mostly sourced f
 1. clone the repo
 2. run `yarn` in the root dir
 3. run `yarn test` to run all test files
+
+# Included Problems
+
+1. [Stock Prices Max Profit](./src/stock_prices.ts)
+2. [Longest Unique Substring](./src/longest_substring.ts)
+3. [Matrix Clock-wise Rotation](./src/matrix_rotation.ts)
