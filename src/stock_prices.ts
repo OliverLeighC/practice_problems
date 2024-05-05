@@ -5,6 +5,7 @@
  * Must be O(n) complexity and O(1) space
  * @param prices array of integers (can include zeros)
  * @returns max profit (could be negative)
+ * @notes sourced from Interview Cake
  */
 
 /* THOUGHT PROCESS NOTES 

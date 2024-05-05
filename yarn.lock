@@ -3070,6 +3070,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"practice_problems@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "practice_problems@workspace:."
+  dependencies:
+    "@swc/core": "npm:^1.4.17"
+    "@swc/jest": "npm:^0.2.36"
+    "@types/jest": "npm:^29.5.12"
+    "@types/node": "npm:^20.12.8"
+    jest: "npm:^29.7.0"
+    jest-extended: "npm:^4.0.2"
+    typescript: "npm:^5.4.5"
+  languageName: unknown
+  linkType: soft
+
 "pretty-format@npm:^29.0.0, pretty-format@npm:^29.7.0":
   version: 29.7.0
   resolution: "pretty-format@npm:29.7.0"
@@ -3458,20 +3472,6 @@ __metadata:
   checksum: 10c0/a5eca3eb50bc11552d453488344e6507156b9193efd7635e98e867fab275d527af53d8866e2370cd09dfe74378a18111622ace35af6a608e5223a7d27fe99537
   languageName: node
   linkType: hard
-
-"tech_challenges@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "tech_challenges@workspace:."
-  dependencies:
-    "@swc/core": "npm:^1.4.17"
-    "@swc/jest": "npm:^0.2.36"
-    "@types/jest": "npm:^29.5.12"
-    "@types/node": "npm:^20.12.8"
-    jest: "npm:^29.7.0"
-    jest-extended: "npm:^4.0.2"
-    typescript: "npm:^5.4.5"
-  languageName: unknown
-  linkType: soft
 
 "test-exclude@npm:^6.0.0":
   version: 6.0.0
