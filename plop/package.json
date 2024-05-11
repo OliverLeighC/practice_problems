@@ -1,0 +1,10 @@
+{
+  "name": "plopjs",
+  "packageManager": "yarn@4.2.1",
+  "dependencies": {
+    "plop": "^2.7.4"
+  },
+  "scripts": {
+    "plop": "plop"
+  }
+}
