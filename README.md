@@ -15,3 +15,7 @@ Written in typescript and tested in jest. Nothing too exciting, mostly sourced f
 1. [Stock Prices Max Profit](./src/stock_prices.ts)
 2. [Longest Unique Substring](./src/longest_substring.ts)
 3. [Matrix Clock-wise Rotation](./src/matrix_rotation.ts)
+4. [Fizz Buzz](./src/fizz_buzz.ts)
+5. [Max Chars](./src/max_chars.ts)
+6. [Palindrome](./src/palindrome.ts)
+7. [Reverse String](./src/reverse_string.ts)
